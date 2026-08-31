@@ -1,0 +1,17 @@
+{
+  "name": "zap-check",
+  "version": "0.1.0",
+  "description": "WhatsApp number verification with pluggable providers. Keep the number that verifies isolated from the number that matters.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": { "zap-check": "src/cli.ts" },
+  "scripts": {
+    "test": "bun test",
+    "cli": "bun src/cli.ts",
+    "server": "bun src/server.ts"
+  },
+  "repository": { "type": "git", "url": "https://github.com/ricardo-landim/zap-check.git" },
+  "keywords": ["whatsapp", "verification", "phone-number", "uazapi", "provider"],
+  "engines": { "bun": ">=1.0.0" }
+}
